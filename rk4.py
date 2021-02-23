@@ -3,6 +3,7 @@
 
 # In[36]:
 
+#le but est de faire quelque chose
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -55,8 +56,3 @@ plt.savefig('rk4_100m',transparent=False)
 phi=np.array([0,30,60,89.99])*np.pi/180
 theta=phi[3]-np.arcsin((r0*np.sin(np.pi-phi[3]))/(r0+650))
 theta=theta*180/np.pi
-
-
-
-
-
