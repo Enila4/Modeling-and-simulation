@@ -4,6 +4,7 @@
 # In[36]:
 
 #le but est de faire quelque chose
+# on va essayer de pusher
 
 import numpy as np
 import matplotlib.pyplot as plt
