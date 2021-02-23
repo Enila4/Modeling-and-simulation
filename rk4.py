@@ -6,6 +6,7 @@
 #le but est de faire quelque chose
 # on va essayer de pusher
 # on va essayer de puller
+# on va faire une demande de push chez ENila 
 
 import numpy as np
 import matplotlib.pyplot as plt
