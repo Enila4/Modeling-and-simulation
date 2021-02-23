@@ -50,31 +50,12 @@ for p in range(4):
 
 plt.title('rk4, h=1km')
 plt.legend(title=r'$\varphi~~[°]$',loc='lower left')    
-#plt.savefig('rk4_100m',transparent=False)
-
-
-# In[30]:
-
+plt.savefig('rk4_100m',transparent=False)
 
 phi=np.array([0,30,60,89.99])*np.pi/180
 theta=phi[3]-np.arcsin((r0*np.sin(np.pi-phi[3]))/(r0+650))
 theta=theta*180/np.pi
 
-
-# In[31]:
-
-
-d=(theta*2*np.pi*r0)/360
-d
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
